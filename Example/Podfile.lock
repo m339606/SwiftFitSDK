@@ -1,7 +1,7 @@
 PODS:
   - Nimble (7.0.3)
   - Quick (1.2.0)
-  - SwiftFitSDK (0.1.0)
+  - SwiftFitSDK (20.76.00)
 
 DEPENDENCIES:
   - Nimble (~> 7.0.2)
@@ -20,7 +20,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   Nimble: 7f5a9c447a33002645a071bddafbfb24ea70e0ac
   Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
-  SwiftFitSDK: 9df1c1367299d143708d072438922c2be68eb994
+  SwiftFitSDK: b974ba4f966f29e3365abb0e3e616499b597b83f
 
 PODFILE CHECKSUM: 6d8cb3a22feef7ab951ebda94d043e903de19e54
 
