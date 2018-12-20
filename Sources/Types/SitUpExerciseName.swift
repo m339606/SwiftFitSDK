@@ -1,0 +1,42 @@
+
+public struct SitUpExerciseName {
+    public static let AlternatingSitUp: UInt16 = 0
+    public static let WeightedAlternatingSitUp: UInt16 = 1
+    public static let BentKneeVUp: UInt16 = 2
+    public static let WeightedBentKneeVUp: UInt16 = 3
+    public static let ButterflySitUp: UInt16 = 4
+    public static let WeightedButterflySitup: UInt16 = 5
+    public static let CrossPunchRollUp: UInt16 = 6
+    public static let WeightedCrossPunchRollUp: UInt16 = 7
+    public static let CrossedArmsSitUp: UInt16 = 8
+    public static let WeightedCrossedArmsSitUp: UInt16 = 9
+    public static let GetUpSitUp: UInt16 = 10
+    public static let WeightedGetUpSitUp: UInt16 = 11
+    public static let HoveringSitUp: UInt16 = 12
+    public static let WeightedHoveringSitUp: UInt16 = 13
+    public static let KettlebellSitUp: UInt16 = 14
+    public static let MedicineBallAlternatingVUp: UInt16 = 15
+    public static let MedicineBallSitUp: UInt16 = 16
+    public static let MedicineBallVUp: UInt16 = 17
+    public static let ModifiedSitUp: UInt16 = 18
+    public static let NegativeSitUp: UInt16 = 19
+    public static let OneArmFullSitUp: UInt16 = 20
+    public static let RecliningCircle: UInt16 = 21
+    public static let WeightedRecliningCircle: UInt16 = 22
+    public static let ReverseCurlUp: UInt16 = 23
+    public static let WeightedReverseCurlUp: UInt16 = 24
+    public static let SingleLegSwissBallJackknife: UInt16 = 25
+    public static let WeightedSingleLegSwissBallJackknife: UInt16 = 26
+    public static let TheTeaser: UInt16 = 27
+    public static let TheTeaserWeighted: UInt16 = 28
+    public static let ThreePartRollDown: UInt16 = 29
+    public static let WeightedThreePartRollDown: UInt16 = 30
+    public static let VUp: UInt16 = 31
+    public static let WeightedVUp: UInt16 = 32
+    public static let WeightedRussianTwistOnSwissBall: UInt16 = 33
+    public static let WeightedSitUp: UInt16 = 34
+    public static let XAbs: UInt16 = 35
+    public static let WeightedXAbs: UInt16 = 36
+    public static let SitUp: UInt16 = 37
+    public static let Invalid: UInt16 = 0xFFFF
+}

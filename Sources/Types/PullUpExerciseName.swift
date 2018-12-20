@@ -1,0 +1,43 @@
+
+public struct PullUpExerciseName {
+    public static let BandedPullUps: UInt16 = 0
+    public static let _30DegreeLatPulldown: UInt16 = 1
+    public static let BandAssistedChinUp: UInt16 = 2
+    public static let CloseGripChinUp: UInt16 = 3
+    public static let WeightedCloseGripChinUp: UInt16 = 4
+    public static let CloseGripLatPulldown: UInt16 = 5
+    public static let CrossoverChinUp: UInt16 = 6
+    public static let WeightedCrossoverChinUp: UInt16 = 7
+    public static let EzBarPullover: UInt16 = 8
+    public static let HangingHurdle: UInt16 = 9
+    public static let WeightedHangingHurdle: UInt16 = 10
+    public static let KneelingLatPulldown: UInt16 = 11
+    public static let KneelingUnderhandGripLatPulldown: UInt16 = 12
+    public static let LatPulldown: UInt16 = 13
+    public static let MixedGripChinUp: UInt16 = 14
+    public static let WeightedMixedGripChinUp: UInt16 = 15
+    public static let MixedGripPullUp: UInt16 = 16
+    public static let WeightedMixedGripPullUp: UInt16 = 17
+    public static let ReverseGripPulldown: UInt16 = 18
+    public static let StandingCablePullover: UInt16 = 19
+    public static let StraightArmPulldown: UInt16 = 20
+    public static let SwissBallEzBarPullover: UInt16 = 21
+    public static let TowelPullUp: UInt16 = 22
+    public static let WeightedTowelPullUp: UInt16 = 23
+    public static let WeightedPullUp: UInt16 = 24
+    public static let WideGripLatPulldown: UInt16 = 25
+    public static let WideGripPullUp: UInt16 = 26
+    public static let WeightedWideGripPullUp: UInt16 = 27
+    public static let BurpeePullUp: UInt16 = 28
+    public static let WeightedBurpeePullUp: UInt16 = 29
+    public static let JumpingPullUps: UInt16 = 30
+    public static let WeightedJumpingPullUps: UInt16 = 31
+    public static let KippingPullUp: UInt16 = 32
+    public static let WeightedKippingPullUp: UInt16 = 33
+    public static let LPullUp: UInt16 = 34
+    public static let WeightedLPullUp: UInt16 = 35
+    public static let SuspendedChinUp: UInt16 = 36
+    public static let WeightedSuspendedChinUp: UInt16 = 37
+    public static let PullUp: UInt16 = 38
+    public static let Invalid: UInt16 = 0xFFFF
+}

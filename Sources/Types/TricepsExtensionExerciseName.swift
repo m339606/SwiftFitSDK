@@ -1,0 +1,45 @@
+
+public struct TricepsExtensionExerciseName {
+    public static let BenchDip: UInt16 = 0
+    public static let WeightedBenchDip: UInt16 = 1
+    public static let BodyWeightDip: UInt16 = 2
+    public static let CableKickback: UInt16 = 3
+    public static let CableLyingTricepsExtension: UInt16 = 4
+    public static let CableOverheadTricepsExtension: UInt16 = 5
+    public static let DumbbellKickback: UInt16 = 6
+    public static let DumbbellLyingTricepsExtension: UInt16 = 7
+    public static let EzBarOverheadTricepsExtension: UInt16 = 8
+    public static let InclineDip: UInt16 = 9
+    public static let WeightedInclineDip: UInt16 = 10
+    public static let InclineEzBarLyingTricepsExtension: UInt16 = 11
+    public static let LyingDumbbellPulloverToExtension: UInt16 = 12
+    public static let LyingEzBarTricepsExtension: UInt16 = 13
+    public static let LyingTricepsExtensionToCloseGripBenchPress: UInt16 = 14
+    public static let OverheadDumbbellTricepsExtension: UInt16 = 15
+    public static let RecliningTricepsPress: UInt16 = 16
+    public static let ReverseGripPressdown: UInt16 = 17
+    public static let ReverseGripTricepsPressdown: UInt16 = 18
+    public static let RopePressdown: UInt16 = 19
+    public static let SeatedBarbellOverheadTricepsExtension: UInt16 = 20
+    public static let SeatedDumbbellOverheadTricepsExtension: UInt16 = 21
+    public static let SeatedEzBarOverheadTricepsExtension: UInt16 = 22
+    public static let SeatedSingleArmOverheadDumbbellExtension: UInt16 = 23
+    public static let SingleArmDumbbellOverheadTricepsExtension: UInt16 = 24
+    public static let SingleDumbbellSeatedOverheadTricepsExtension: UInt16 = 25
+    public static let SingleLegBenchDipAndKick: UInt16 = 26
+    public static let WeightedSingleLegBenchDipAndKick: UInt16 = 27
+    public static let SingleLegDip: UInt16 = 28
+    public static let WeightedSingleLegDip: UInt16 = 29
+    public static let StaticLyingTricepsExtension: UInt16 = 30
+    public static let SuspendedDip: UInt16 = 31
+    public static let WeightedSuspendedDip: UInt16 = 32
+    public static let SwissBallDumbbellLyingTricepsExtension: UInt16 = 33
+    public static let SwissBallEzBarLyingTricepsExtension: UInt16 = 34
+    public static let SwissBallEzBarOverheadTricepsExtension: UInt16 = 35
+    public static let TabletopDip: UInt16 = 36
+    public static let WeightedTabletopDip: UInt16 = 37
+    public static let TricepsExtensionOnFloor: UInt16 = 38
+    public static let TricepsPressdown: UInt16 = 39
+    public static let WeightedDip: UInt16 = 40
+    public static let Invalid: UInt16 = 0xFFFF
+}
