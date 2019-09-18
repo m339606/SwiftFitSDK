@@ -37,8 +37,13 @@ public class Decode {
             if Int(header.dataSize) > invalid_data_size {
                 fileSize = Int(header.size) + Int(header.dataSize) + crcSize
                 fitData.position = fitData.position - Int(header.size)
-                let data = fitData.read(count: fileSize)
-                isValid = isValid && CRC.calc16(dataBlock: data, size: data.count) == 0x0000
+                if(fileSize == fitData.count){
+                    let data = fitData.read(count: fileSize)
+                    isValid = isValid && CRC.calc16(dataBlock: data, size: data.count) == 0x0000
+                }else{
+                    invalidDataSize = true
+                    isValid = false
+                }
             } else {
                 invalidDataSize = true
                 isValid = false

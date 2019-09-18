@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'SwiftFitSDK'
-  s.version          = '20.76.00'
+  s.version          = '20.76.01'
   s.summary          = 'Swift Fit SDK'
   s.description      = <<-EOS
   This version of FitSDK is translated from Garmin’s FitSDK based on C#

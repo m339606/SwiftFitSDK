@@ -12,7 +12,7 @@ public class Header {
             if newValue == Fit.headerWithCRCSize || newValue == Fit.headerWithoutCRCSize {
                 _size = newValue
             } else {
-                fatalError("Tried to set Header Size to \(newValue)")
+                print("Tried to set Header Size to \(newValue)")
             }
         }
     }
